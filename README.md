@@ -4,8 +4,9 @@
 Послідовність станів:
 
 -> start -> _sleeping -> _awake -> _on_lesson -> _free_in_ucu -> _gym -> _home -> _go_to_bed -> end
-                            \                         ^
-                             \-----------------------|
+
+Є також шлях _awake -> _free_in_ucu
+
 ## Є два параметра:
 1. Година
 2. Енергія
